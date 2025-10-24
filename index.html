@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio Interactivo</title>
+    <title>Brynware</title>
     <!-- Materialize CSS -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
@@ -94,22 +94,45 @@
       </div>
     </div>
 
-    <!-- Sobre mí -->
-    <div class="section container" id="sobre-mi">
-      <h2 class="center-align">Sobre mí</h2>
-      <div class="row">
-        <div class="col s12 m6">
-          <img
-            src="https://via.placeholder.com/400"
-            alt="Foto de perfil"
-            class="responsive-img circle z-depth-3 hoverable"
-          />
+<!-- SOBRE BRYNWARE -->
+<div class="section teal lighten-5" id="sobre-brynware">
+  <div class="container">
+    <h2 class="center-align">Sobre Brynware</h2>
+    <p class="center-align flow-text">Un equipo de expertos en soporte técnico que busca soluciones efectivas para tu tecnología.</p>
+
+    <div class="row">
+      <!-- Tarjeta 1: Cómo nace -->
+      <div class="col s12 m4">
+        <div class="card hoverable">
+          <div class="card-content">
+            <span class="card-title"><i class="material-icons">history</i> Cómo nace</span>
+            <p>Brynware surge como un proyecto de un equipo apasionado por la tecnología, con más de 5 años de experiencia, buscando ofrecer servicios confiables, rápidos y accesibles para empresas y usuarios domésticos.</p>
+          </div>
         </div>
-        <div class="col s12 m6">
-          <p></p>
+      </div>
+
+      <!-- Tarjeta 2: Qué busca solucionar -->
+      <div class="col s12 m4">
+        <div class="card hoverable">
+          <div class="card-content">
+            <span class="card-title"><i class="material-icons">build</i> Qué busca solucionar</span>
+            <p>Garantizar que la tecnología de nuestros clientes funcione de manera óptima, resolviendo problemas de rendimiento, seguridad, redes y respaldo de información, para mantener equipos seguros y eficientes.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjeta 3: Misión y visión -->
+      <div class="col s12 m4">
+        <div class="card hoverable">
+          <div class="card-content">
+            <span class="card-title"><i class="material-icons">visibility</i> Misión y Visión</span>
+            <p>Nuestra misión es ofrecer soporte técnico de alta calidad con atención personalizada. Nuestra visión es ser reconocidos como un equipo confiable que maximiza el rendimiento de la tecnología de nuestros clientes.</p>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+</div>
 
     <!-- Proyectos -->
     <div class="section teal lighten-5" id="proyectos">
@@ -304,13 +327,85 @@
           </div>
         </div>
 
+        <!-- Proyecto 7 -->
+        <div class="col s12 m4">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="./img/perifericos_impresoras.jpg" height="350px"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Periféricos e impresoras<i class="material-icons right">more_vert</i></span
+              >
+              <p><a href="#">Ver proyecto</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Periféricos e impresoras<i class="material-icons right">close</i></span
+              >
+              <p>
+                <ul>
+                    <li>🔹 Instalación y mantenimiento de impresoras y escáneres</li>
+                    <li>🔹 Configuración de impresoras por red o Wi-Fi</li>
+                    <li>🔹 Limpieza de cabezales y calibración de impresión</li>
+                    <li>🔹 Cableado estructurado básico</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 7 -->
+        <div class="col s12 m4">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="./img/servicios_adicionales.jpg" height="350px"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Servicios adicionales<i class="material-icons right">more_vert</i></span
+              >
+              <p><a href="#">Ver proyecto</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Servicios adicionales<i class="material-icons right">close</i></span
+              >
+              <p>
+                <ul>
+                    <li>🔹 Ensamble y actualización de equipos de escritorio</li>
+                    <li>🔹 Diagnóstico y asesoría para compra de partes o nuevos equipos</li>
+                    <li>🔹 Instalación de cámaras de seguridad (CCTV y IP)</li>
+                    <li>🔹 Implementación de estaciones de trabajo y redes empresariales</li>
+                    <li>🔹 Soporte remoto y asistencia en línea</li>
+                    <li>🔹 Capacitación básica en uso de sistemas operativos y ofimática</li>
+                    <li>🔹 Implementación de software libre y soluciones económicas</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
-    <!-- Contacto -->
-    <div class="section container" id="contacto">
+
+
+    <!-- QR-->
+
+
       <h2 class="center-align">Contacto</h2>
+    <div id="qrcode"></div>
+
+    <!-- Contacto -->
+    <!--<div class="section container" id="contacto">
+
       <div class="row">
+
         <form class="col s12">
           <div class="row">
             <div class="input-field col s12 m6">
@@ -342,12 +437,12 @@
           </div>
         </form>
       </div>
-    </div>
+    </div>-->
 
     <!-- Footer -->
     <footer class="page-footer teal darken-2">
       <div class="container center-align">
-        © 2025 Brayan Cruz - Todos los derechos reservados
+        © 2025 Brynware - Todos los derechos reservados
       </div>
     </footer>
 
@@ -360,5 +455,17 @@
     />
     <!-- JS Personalizado -->
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script>
+  const numero = "573004300647";
+  const mensaje = "Hola, quiero más información para solicitar un servicio";
+  const enlace = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
+
+  new QRCode(document.getElementById("qrcode"), {
+    text: enlace,
+    width: 150,
+    height: 150
+  });
+</script>
   </body>
 </html>

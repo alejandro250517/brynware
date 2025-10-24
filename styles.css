@@ -24,3 +24,28 @@
 .section h2 {
   margin-bottom: 40px;
 }
+
+#sobre-brynware h2 {
+  margin-bottom: 30px;
+}
+
+#sobre-brynware .card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#sobre-brynware .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+}
+
+#sobre-brynware .card .card-title i {
+  vertical-align: middle;
+  margin-right: 8px;
+  color: teal;
+}
+
+#qrcode{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+}

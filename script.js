@@ -11,4 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
   var navbar = document.querySelectorAll('.navbar');
   M.Sidenav.init(navbar);
 
+    // Inicializar Collapsible (si decides usarlo en otras secciones)
+  var collapsibles = document.querySelectorAll('.collapsible');
+  M.Collapsible.init(collapsibles);
+
 });
