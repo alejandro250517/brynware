@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Interactivo</title>
+    <!-- Materialize CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar-fixed teal darken-2">
+      <div class="nav-wrapper container">
+        <a href="#!" class="brand-logo" style="display: flex">
+          <img
+            src="../img/logo.png"
+            alt="Logo"
+            class="responsive-img"
+            width="60px"
+            height="60px"
+          />
+          <span class="hide-on-med-and-down">Brynware</span>
+        </a>
+        <a href="#" data-target="mobile-nav" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Sidenav para móviles -->
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+
+    <!-- Hero Section -->
+    <div class="section teal lighten-5 center-align hero">
+      <h1 class="white-text flow-text animate__animated animate__fadeInDown">
+        ¡Hola! Somos Brynware
+      </h1>
+      <p class="white-text flow-text animate__animated animate__fadeInUp">
+        Soporte técnico especializado
+      </p>
+      <a
+        class="btn-large waves-effect waves-light teal darken-2 modal-trigger"
+        href="#modal-intro"
+        >Conóceme</a
+      >
+    </div>
+
+    <!-- Modal Intro -->
+    <div id="modal-intro" class="modal">
+      <div class="modal-content">
+        <h4>Bienvenidos</h4>
+        <p>
+          Somos un equipo técnico en sistemas con más de 5 años de experiencia
+          en mantenimiento y soporte de equipos de cómputo. Nuestro objetivo es
+          ofrecer soluciones efectivas para que tu tecnología funcione sin
+          interrupciones. Brindamos atención especializada en entornos Windows,
+          Linux y macOS, tanto para empresas como para usuarios domésticos.
+          Entre nuestras labores destacadas se incluyen:
+            <ul>
+                <li>🔹 Mantenimiento preventivo</li>
+                <li>🔹 Mantenimiento correctivo</li>
+                <li>🔹 Instalación y configuracion de software</li>
+                <li>🔹 Optimización y rendimiento</li>
+                <li>🔹 Seguridad y respaldo</li>
+                <li>🔹 Redes y conectividad</li>
+                <li>🔹 Periféricos e impresoras</li>
+                <li>🔹 Servicios adicionales</li>
+            </ul>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+          >Cerrar</a
+        >
+      </div>
+    </div>
+
+    <!-- Sobre mí -->
+    <div class="section container" id="sobre-mi">
+      <h2 class="center-align">Sobre mí</h2>
+      <div class="row">
+        <div class="col s12 m6">
+          <img
+            src="https://via.placeholder.com/400"
+            alt="Foto de perfil"
+            class="responsive-img circle z-depth-3 hoverable"
+          />
+        </div>
+        <div class="col s12 m6">
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Proyectos -->
+    <div class="section teal lighten-5" id="proyectos">
+      <h2 class="center-align">Proyectos</h2>
+      <div class="row">
+        <!-- Proyecto 1 -->
+        <div class="col s12 m4">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src='./img/mantenimiento_preventivo.jpg' height="350px"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Mantenimiento preventivo<i class="material-icons right">more_vert</i></span
+              >
+              <p><a href="#">Ver proyecto</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Mantenimiento preventivo<i class="material-icons right">close</i></span
+              >
+              <p>
+                <ul>
+                    <li> 🔹 Limpieza interna y externa de equipos</li>
+                    <li> 🔹 Aplicación de pasta térmica al procesador</li>
+                    <li> 🔹 Verificación de temperaturas y ventilación</li>
+                    <li> 🔹 Revisión de cables, puertos y conexiones</li>
+                    <li> 🔹 Diagnóstico general del estado del hardware</li>
+                    <li> 🔹 Actualización de BIOS y firmware</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col s12 m4">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="./img/mantenimiento_correctivo.jpg"  height="350px"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Mantenimiento correctivo<i class="material-icons right">more_vert</i></span
+              >
+              <p><a href="#">Ver proyecto</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Mantenimiento correctivo<i class="material-icons right">close</i></span
+              >
+              <p>
+                <ul>
+                    <li>🔹 Reparación o reemplazo de componentes dañados (RAM, disco, fuente, pantalla, teclado)</li>
+                    <li>🔹 Diagnóstico de fallas eléctricas o de encendido</li>
+                    <li>🔹 Instalación de repuestos y partes originales o compatibles</li>
+                    <li>🔹 Recuperación de equipos que no inician o presentan pantallazos azules</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="col s12 m4">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="./img/instalacion_de_software.jpg" height="350px"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Instalación y configuración de software<i class="material-icons right">more_vert</i></span
+              >
+              <p><a href="#">Ver proyecto</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Instalación y configuración de software<i class="material-icons right">close</i></span
+              >
+              <p>
+                <ul>
+                    <li>🔹 Instalación de sistemas operativos (Windows, Linux, macOS)</li>
+                    <li>🔹 Instalación y configuración de controladores (drivers)</li>
+                    <li>🔹 Instalación de paquetes de ofimática (Office, LibreOffice, etc.)</li>
+                    <li>🔹 Configuración de antivirus y programas de seguridad</li>
+                    <li>🔹 Instalación de software de diseño, contabilidad, edición y desarrollo</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 4 -->
+        <div class="col s12 m4">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="./img/optimizacion_rendimiento.jpg" height="350px"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Optimización y rendimiento<i class="material-icons right">more_vert</i></span
+              >
+              <p><a href="#">Ver proyecto</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Optimización y rendimiento<i class="material-icons right">close</i></span
+              >
+              <p>
+                <ul>
+                    <li>🔹 Aceleración del inicio del sistema operativo</li>
+                    <li>🔹 Limpieza de archivos temporales y registro de Windows</li>
+                    <li>🔹 Desfragmentación o mantenimiento de discos duros</li>
+                    <li>🔹 Configuración de servicios y programas de inicio</li>
+                    <li>🔹 Reinstalación o actualización de sistemas lentos</li>
+                    <li>🔹 Actualización de hardware para mejorar el rendimiento (SSD, RAM, etc.)</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+                <!-- Proyecto 5 -->
+        <div class="col s12 m4">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="./img/seguridad_respaldo.jpg" height="350px"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Seguridad y respaldo<i class="material-icons right">more_vert</i></span
+              >
+              <p><a href="#">Ver proyecto</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Seguridad y respaldo<i class="material-icons right">close</i></span
+              >
+              <p>
+                <ul>
+                    <li>🔹 Respaldo y recuperación de información importante</li>
+                    <li>🔹 Eliminación de virus, spyware, troyanos y malware</li>
+                    <li>🔹 Configuración de cortafuegos (firewall)</li>
+                    <li>🔹 Cifrado y protección de datos personales</li>
+                    <li>🔹 Implementación de copias de seguridad automáticas</li>
+                    <li>🔹 Asesoría en almacenamiento en la nube (Google Drive, OneDrive, Dropbox)</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+         <!-- Proyecto 6 -->
+        <div class="col s12 m4">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="./img/redes_conectividad.jpg" height="350px"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Redes y conectividad<i class="material-icons right">more_vert</i></span
+              >
+              <p><a href="#">Ver proyecto</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Redes y conectividad<i class="material-icons right">close</i></span
+              >
+              <p>
+                <ul>
+                    <li>🔹 Configuración de routers, puntos de acceso y Wi-Fi</li>
+                    <li>🔹 Diagnóstico de fallos en red local (LAN / WLAN)</li>
+                    <li>🔹 Configuración de impresoras en red</li>
+                    <li>🔹 Creación de grupos de trabajo y redes compartidas</li>
+                    <li>🔹 Cableado estructurado básico</li>
+                    <li>🔹 Asesoría en seguridad de red y contraseñas</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Contacto -->
+    <div class="section container" id="contacto">
+      <h2 class="center-align">Contacto</h2>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <input id="nombre" type="text" class="validate" required />
+              <label for="nombre">Nombre</label>
+            </div>
+            <div class="input-field col s12 m6">
+              <input id="email" type="email" class="validate" required />
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea
+                id="mensaje"
+                class="materialize-textarea"
+                required
+              ></textarea>
+              <label for="mensaje">Mensaje</label>
+            </div>
+          </div>
+          <div class="row center-align">
+            <button
+              class="btn waves-effect waves-light teal darken-2"
+              type="submit"
+            >
+              Enviar <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer teal darken-2">
+      <div class="container center-align">
+        © 2025 Brayan Cruz - Todos los derechos reservados
+      </div>
+    </footer>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Animate.css para animaciones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- JS Personalizado -->
+    <script src="script.js"></script>
+  </body>
+</html>
